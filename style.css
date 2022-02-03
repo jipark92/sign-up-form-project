@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
+:root {
+    font-family: 'Short Stack', cursive;
+}
+
 body{
     margin: 0px;
 }
 
-@font-face {
-    font-family: Norse-Bold;
-    src: url(Norse-Bold.otf):
+.main-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
 }
 
+
+
 .intro {
-    font-family: 'Short Stack', cursive;
+    
 }
 
 button {
@@ -21,6 +29,11 @@ button {
     height: 40px;
 }
 
+.bg-image {
+    position: absolute;
+    margin: 0px;
+}
+
 
 .focus {
     border: 1px solid rgb(0, 0, 255);
@@ -28,26 +41,36 @@ button {
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 100vh;
+    width: 45vw;
 }
 
-input:valid {
-    border-color: rgb(0, 128, 0);
+figcaption {
+    position: absolute;
+    top: 98vh;
+    left: 10vw;
+    z-index: 1;
+    color: white;
 }
 
-input:invalid {
-    border-color: rgb(255, 0, 0);
+.intro {
+    position: absolute;
+    left: 45vw;
+    top: 10vh;
+    margin: 15px;
 }
 
 .sign-up {
-    
-    font-family: 'Short Stack', cursive;
+    position: absolute;
+    left: 45vw;
+    top: 30vh;
+    margin: 15px;
 }
 
 .info {
     border: 1px solid rgb(206, 204, 204);
     box-shadow: 1px 5px 3px rgb(206, 204, 204);
+    
 }
 
 #login {
@@ -58,4 +81,12 @@ input:invalid {
 
 .login {
     font-family: 'Short Stack', cursive;
+}
+
+input:valid {
+    border-color: rgb(0, 128, 0);
+}
+
+input:invalid {
+    border-color: rgb(255, 0, 0);
 }
