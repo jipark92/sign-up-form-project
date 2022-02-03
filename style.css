@@ -3,6 +3,7 @@
 :root {
     font-family: 'Short Stack', cursive;
     background: rgb(238, 238, 238);
+    
 }
 
 body{
@@ -51,6 +52,7 @@ button {
 .cover {
     height: 100vh;
     width: 45vw;
+    
 
 }
 .cover-bg {
@@ -66,10 +68,12 @@ button {
     color: white;
     font-size: 3rem;
     padding: 10px 10px 0px 0px;
+    
 }
 
 .cover-logo {
   height: 15vh;
+  
 }
 
 figcaption {
@@ -77,6 +81,7 @@ figcaption {
     top: 98vh;
     left: 10vw;
     color: white;
+    
 }
 
 legend {
@@ -88,6 +93,7 @@ legend {
     left: 45vw;
     top: 10vh;
     margin: 15px;
+    
 }
 
 .sign-up {
