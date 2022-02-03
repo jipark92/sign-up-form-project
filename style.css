@@ -1,0 +1,14 @@
+button {
+    background-color: #596D48;
+}
+
+
+.focus {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px gray;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
