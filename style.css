@@ -107,7 +107,7 @@ legend {
     position: absolute;
     width: 55%;
     left: 45vw;
-    top: 40vh;
+    top: 35vh;
 
 }
 .information-container {
@@ -118,15 +118,23 @@ legend {
     justify-content: space-evenly;
 }
 
+legend {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 25px;
+}
 .info {
-    padding: 25px;
+    padding-top: 2vh;
     display: flex;
     flex-direction: column;
     width: 20vw;
+
 }
 
+
 .info-2 {
-    padding: 25px;
+    padding-top: 6vh;
     display: flex;
     flex-direction: column;
     width: 20vw;
