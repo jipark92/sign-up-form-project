@@ -2,6 +2,7 @@
 
 :root {
     font-family: 'Short Stack', cursive;
+    background: rgb(238, 238, 238);
 }
 
 body{
@@ -13,9 +14,14 @@ body{
     width: 100vw;
     height: 100vh;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    
 }
 
-
+.logo {
+ 
+}
 
 .intro {
     
@@ -25,13 +31,16 @@ button {
     background-color: #596D48;
     color: white;
     border-radius: 6px;
-    width: 170px;
+    width: 280px;
     height: 40px;
+    margin-bottom: 25px;
 }
 
 .bg-image {
     position: absolute;
     margin: 0px;
+    height: 100vh;
+    width: 45vw;
 }
 
 
@@ -40,18 +49,38 @@ button {
     box-shadow: 1px 1px 1px gray;
 }
 
-img {
+.cover {
     height: 100vh;
     width: 45vw;
+}
+.cover-bg {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cover-title {
+    position : absolute;
+    top: 25vh;
+    height: 20vh;
+    background-color: black;
+    left: 15vw;
+    opacity: 0.7;
+    
 }
 
 figcaption {
     position: absolute;
     top: 98vh;
     left: 10vw;
-    z-index: 1;
     color: white;
 }
+
+legend {
+    padding : 15px;
+}
+
+
 
 .intro {
     position: absolute;
@@ -62,25 +91,27 @@ figcaption {
 
 .sign-up {
     position: absolute;
+    width: 55%;
     left: 45vw;
-    top: 30vh;
-    margin: 15px;
+    top: 40vh;
 }
-
-.info {
+.information-container {
     border: 1px solid rgb(206, 204, 204);
     box-shadow: 1px 5px 3px rgb(206, 204, 204);
-    
+    background-color: white;  
 }
+
+
+
 
 #login {
     color: #596D48;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .login {
-    font-family: 'Short Stack', cursive;
+    padding: 40px 0px 0px 40px;
+    
 }
 
 input:valid {

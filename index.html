@@ -8,52 +8,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="main-container">
         <figure class="bg-image">
-            <img src="halie-west-25xggax4bSA-unsplash.jpg">
+            <img class="cover" src="halie-west-25xggax4bSA-unsplash.jpg" alt="cover">
             <figcaption>Photo by Halie West on Unsplash</figcaption>
+            <div class="cover-bg">
+            <img class="cover-title" src="odin-lined.png" alt="logo">
+            </div>
         </figure>
+        
 
 
         <div class="intro">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
     
-            <p> You <em><b>know</b></em> you want to.</p>
+            <p> You <em><b>know</b></em> you want to.</b></p>
         </div>
 
 
         <div class="sign-up">
             <form action="example.com/path" method="get">
-                    <div class="info">
-                        <legend>Let's do this!</legend>
-                        
-                        <labal for="firstname">FIRST NAME</labal>
-                            <input type="text" id="firstname" name="firstname" placeholder="enter your first name" minlength="1" maxlength="20" required></input>
+                <div class="information-container">
+                        <div class="info">
+                            <legend>Let's do this!</legend>
+                            
+                            <labal for="firstname">FIRST NAME</labal>
+                                <input type="text" id="firstname" name="firstname" placeholder="enter your first name" minlength="1" maxlength="20" required></input>
 
-                        <labal for="lastname">LAST NAME</labal>
-                            <input class="focus" type="text" name="lastname" placeholder="enter your last name" minlength="1" maxlength="20" required></input>
-                        
-                        <labal for="email">EMAIL</labal>
-                            <input type="email" id="email" name="email" placeholder="enter your email" title="Please enter a valid email address." required></input>
+                            
+                            <labal for="email">EMAIL</labal>
+                                <input type="email" id="email" name="email" placeholder="enter your email" title="Please enter a valid email address." required></input>
 
-                        <labal for="phonenumber">PHONE NUMBER</labal>
-                            <input type="tel" id="phonenumber" name="phonenumber" minlength="1" maxlength="13" placeholder="enter your phone number" required></input>
+                            
 
-                        <labal for="password">PASSWORD</labal>
-                            <input class="error" type="password" name="password" placeholder="enter your password" minlength="1" required></input>
-                        
-                        <labal for="confpass">CONFFIRM PASSWORD</labal>
-                            <input type="password" id="confpass" name="confpass" placeholder="confirm your password" minlength="1" required></input>
-                        
-                    </div>
+                            <labal for="password">PASSWORD</labal>
+                                <input class="error" type="password" name="password" placeholder="enter your password" minlength="1" required></input>
+                         </div>
 
+                        <div class="info-2">
+                            <labal for="lastname">LAST NAME</labal>
+                                <input class="focus" type="text" name="lastname" placeholder="enter your last name" minlength="1" maxlength="20" required></input>
+                            
+                            <labal for="phonenumber">PHONE NUMBER</labal>
+                                <input type="tel" id="phonenumber" name="phonenumber" minlength="1" maxlength="13" placeholder="enter your phone number" required></input>
+                            
+                            <labal for="confpass">CONFFIRM PASSWORD</labal>
+                                <input type="password" id="confpass" name="confpass" placeholder="confirm your password" minlength="1" required></input>  
+                        </div>
+                    </div> 
 
-                 <div class="login">
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account? <a href="#" id="login">Log in</a></p>
-                    
-                </div>
-                    
+                     <div class="login">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="#" id="login">Log in</a></p>
+                    </div>     
             </form>
         </div>
         
