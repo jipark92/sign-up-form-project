@@ -1,14 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+body{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf):
+}
+
+.intro {
+    font-family: 'Short Stack', cursive;
+}
+
 button {
     background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+    width: 170px;
+    height: 40px;
 }
 
 
 .focus {
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 255);
     box-shadow: 1px 1px 1px gray;
 }
 
 img {
     height: 200px;
     width: 200px;
+}
+
+input:valid {
+    border-color: rgb(0, 128, 0);
+}
+
+input:invalid {
+    border-color: rgb(255, 0, 0);
+}
+
+.sign-up {
+    
+    font-family: 'Short Stack', cursive;
+}
+
+.info {
+    border: 1px solid rgb(206, 204, 204);
+    box-shadow: 1px 5px 3px rgb(206, 204, 204);
+}
+
+#login {
+    color: #596D48;
+    text-decoration: none;
+    
+}
+
+.login {
+    font-family: 'Short Stack', cursive;
 }
